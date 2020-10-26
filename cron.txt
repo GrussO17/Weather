@@ -1,1 +1,1 @@
-*/1 * * * * /Users/grusso/Documents/Stuff/weather/weather.sh
+0 5 * * * /Users/grusso/Documents/Stuff/weather/weather.sh
