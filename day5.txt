@@ -1,0 +1,16 @@
+The 5 day weather report is:
+Today -- High: - Low: 47
+Precipitation chance: 30%
+
+Mon 26 -- High: 67 Low: 55
+Precipitation chance: 40%
+
+Tue 27 -- High: 66 Low: 51
+Precipitation chance: 10%
+
+Wed 28 -- High: 64 Low: 54
+Precipitation chance: 20%
+
+Thu 29 -- High: 66 Low: 48
+Precipitation chance: 100%
+

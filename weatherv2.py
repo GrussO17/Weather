@@ -25,7 +25,7 @@ today = soup.select_one('div[id*="WxuTodayWeatherCard"]')
 today_sectors = today.select('a[class*="Column--innerWrapper"]')
 
 
-print(better_string_5_day)
+#print(better_string_5_day)
 
 with open('day5.txt', 'w') as thing:
     thing.write(better_string_5_day)
