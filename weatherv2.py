@@ -77,9 +77,14 @@ today = soup.select_one('div[id*="WxuTodayWeatherCard"]')
 today_sectors = today.select('a[class*="Column--innerWrapper"]')
 
 count = 0;
+#for columns in today_sectors:
+#    better_string_today += times_in_a_day[count] + ": " + columns.select_one('div[data-testid*=SegmentHighTemp]').text[:-1] + "F\n   Precip: "
+#    better_string_today += columns.select_one('div[data-testid*=SegmentPrecipPercentage]').text + "  "
+#    better_string_today += skycodes[columns.find('svg',  {'set': 'weather'})['skycode']] + '\n'
+#    count += 1
+#Old ones new one below
 for columns in today_sectors:
-    better_string_today += times_in_a_day[count] + ": " + columns.select_one('div[data-testid*=SegmentHighTemp]').text[:-1] + "F Precip: "
-    better_string_today += columns.select_one('div[data-testid*=SegmentPrecipPercentage]').text + "  "
+    better_string_today += times_in_a_day[count] + ": " + columns.select_one('div[data-testid*=SegmentHighTemp]').text[:-1] + "F "
     better_string_today += skycodes[columns.find('svg',  {'set': 'weather'})['skycode']] + '\n'
     count += 1
 

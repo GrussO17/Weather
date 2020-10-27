@@ -1,1 +1,5 @@
-this is a file that doesnt do much
+Today's weather
+Morning  : 51F Fog
+Afternoon: 61F Cloudy
+Evening  : 54F Partly Cloudy
+Overnight: 54F Cloudy
